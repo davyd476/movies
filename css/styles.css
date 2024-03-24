@@ -1,0 +1,122 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #433b3b;
+  color: #a8a8a8;
+  font-family: Tahoma, sans-serif;
+}
+
+.movie-card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.top-section-movie {
+  display: flex;
+}
+
+.left-section {
+  margin-right: 15px;
+}
+
+.left-section,
+.right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Protest Riot", sans-serif;
+  font-style: normal;
+  background-color: rgb(112, 110, 120);
+  text-align: center;
+  color: rgb(172, 177, 17);
+}
+
+.title-block {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.main-title-movie {
+  width: 172px;
+
+  color: #e8e4d9;
+  font-size: 15px;
+  text-shadow: 1px 1px #8f0505;
+  cursor: pointer;
+
+  transition: color 150ms ease;
+}
+
+.main-title-movie:hover,
+.main-title-movie:focus {
+  color: blueviolet;
+}
+
+.section-subtitle {
+  border: 0;
+  color: #a8a8a8;
+  font-family: Tahoma, verdana, sans-serif;
+  font-size: 100%;
+  font-weight: 700;
+  list-style-type: none;
+  margin-bottom: 7px;
+  font-size: 13px;
+}
+
+.button {
+  background: #242424;
+  border: 1px solid #404040;
+  color: silver;
+  display: block;
+  outline: 1px solid #111;
+  padding: 4px 6px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404040;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.underlined-text {
+  color: #e0dfdc;
+  text-decoration: underline;
+
+  transition: color 150ms ease;
+
+  cursor: pointer;
+}
+
+.underlined-text:hover,
+.underlined-text:focus {
+  color: blueviolet;
+}
+
+.img {
+  cursor: pointer;
+  transition: opacity 150ms linear, background-color 150ms linear;
+}
+
+.img:hover,
+.img:focus {
+  opacity: 0.75;
+
+  /* background-color: rgba(88, 3, 3, 0.7); */
+  /* z-index: 5; */
+}
